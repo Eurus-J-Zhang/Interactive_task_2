@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel= "stylesheet" href="style.css">
+        <link rel="shortcut icon" href="#">
+        <title>CSS Position</title>
+        <style>
+        </style>
+        
+    </head>
+    <body>     
+        <div class="grid-parent">
+
+            <div class = "title name"> 
+                <p class="t_note">
+                Interaction task</p>
+            </div>
+            <div class = "instruction"> 
+                <p class="t_note">
+                    </p>
+            </div>
+            <div class = "story"> 
+                <p class="t_note">
+                    Now you have completed the first task. </br>
+                    You have correctly answered <span id="true_times"></span>
+                    of 5 questions. And it took you 
+                <span id="demo"></span> seconds in total. </br>
+                    You ranked the top 55% in our all participants. </br>
+                </br>
+                    Let's try to do a better job in the next task!</br>
+                    Please continue to read the second story. 
+                </p>
+            </div>
+            <div class = "choices"> 
+                <p class="t_note">
+                    <!-- Please continue if you understand and would like to participate.  -->
+                </p>
+                    <!-- Question 1:  <br>
+                    <br>
+                    Is Friedrich Wilhelm Nietzsche a German philosopher?
+                    <br> -->
+                 </p>
+                <!-- <form id="form">
+                    <input type="radio" id="A" name="answer" value="A">
+                    <label for="A">Yes, he is.</label><br>
+                    <input type="radio" id="B" name="answer" value="B">
+                    <label for="B">No, he isn't.</label><br>
+                  </form> -->
+            </div>
+            <div class = "continue">   
+                <!-- <form action="../page4/index.html">
+                    <input class = "submitbutton" type="submit" value="Continue" />
+                </form> -->
+                <button onclick="fn1()" id="btn1" class = "submitbutton">Continue</button>
+            </div>
+        </div>
+           
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

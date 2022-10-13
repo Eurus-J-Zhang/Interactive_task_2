@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel= "stylesheet" href="style.css">
+        <link rel="shortcut icon" href="#">
+        <title>CSS Position</title>
+        <style>
+        </style>
+        
+    </head>
+    <body>     
+        <div class="grid-parent" id="parent">
+
+            <div class = "title name"> 
+                <p class="t_note">
+                Interaction task</p>
+            </div>
+            <div class = "instruction"> 
+                <p class="t_note">
+                    Please read and follow the instrucitons.</p>
+            </div>
+            <div class = "story"> 
+                <p class="t_note">
+                    This is a task to test memory. <br>
+                    You are asked to firstly read a short story, remember as much detail as you can,
+                    and then to answer the corresponding questions based on the story. <br>
+                    Your goal would be to answer the questions as correctly as you can, and as quickly as you can (the time for reading the story will also be counted). After reading one story and answering the corresponding questions, you will see your ranking among our other participants. </br></br>
+                    There would be 2 storis, 5 questions for each story.<br>
+                    After answering them, you'll be directed to a questionnaire for your emotion reflection. </p>
+            </div>
+            <div class = "choices"> 
+                <p class="t_note">
+                    Please continue if you understand and would like to participate. </p>
+                    <!-- Question 1:  <br>
+                    <br>
+                    Is Friedrich Wilhelm Nietzsche a German philosopher?
+                    <br> -->
+                 </p>
+                <!-- <form id="form">
+                    <input type="radio" id="A" name="answer" value="A">
+                    <label for="A">Yes, he is.</label><br>
+                    <input type="radio" id="B" name="answer" value="B">
+                    <label for="B">No, he isn't.</label><br>
+                  </form> -->
+            </div>
+            <div class = "continue">   
+                <!-- <form action="../page4/index.html">
+                    <input class = "submitbutton" type="submit" value="Continue" />
+                </form> -->
+                <button onclick="fn1()" id="btn1" class = "submitbutton" type="submit" >Continue</button>
+            </div>
+        </div>
+           
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

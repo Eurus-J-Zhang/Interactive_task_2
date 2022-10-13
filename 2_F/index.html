@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel= "stylesheet" href="style.css">
+        <link rel="shortcut icon" href="#">
+        <title>CSS Position</title>
+        <style>
+        </style>
+        
+    </head>
+    <body>     
+        <div class="grid-parent">
+
+            <div class = "title name"> 
+                <p class="t_note">
+                Interaction task</p>
+            </div>
+            <div class = "instruction"> 
+                <p class="t_note">
+                Please read the story and answer the questions.</p>
+            </div>
+            <div class = "story"> 
+                <p class="t_note">
+ </p>
+            </div>
+            <div class = "choices"> 
+                <p class="t_note">
+                    Question 2:  <br>
+                    <br>
+                    Where did Fridrich Nietzsche work at?
+                    <br>
+                 </p>
+                <form id="form">
+                    <input type="radio" id="A" name="answer" value="A">
+                    <label for="A">University of Bern.</label><br>
+                    <input type="radio" id="B" name="answer" value="B">
+                    <label for="B">University of Basel.</label><br>
+                  </form>
+            </div>
+            <div class="result">
+                <p class="t_note" id = "this_result">Wrong!</p>
+            </div>
+            <div class = "continue">   
+                <!-- <form action="../page4/index.html">
+                    <input class = "submitbutton" type="submit" value="Continue" />
+                </form> -->
+                <button onclick="fn1()" id="btn1" class = "submitbutton">Continue</button>
+            </div>
+        </div>
+           
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
