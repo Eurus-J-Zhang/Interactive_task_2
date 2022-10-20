@@ -1,14 +1,11 @@
 .grid-parent{
     display: grid;
-    grid-template-rows: 80px 80px auto 300px 50px;
-    /* gap: 1px; */
+    grid-template-rows: 80px 80px auto 100px 50px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    /* padding: 1px; */
-    background: rgb(199, 198, 198);
 }
 
 .title{
@@ -21,41 +18,31 @@
 
 .instruction{
     font-size: 18px;
-    background-color: white;
 }
 
 .story{
     font-size: 18px;
-    background-color: white;
 }
 
 .question{
     font-size: 18px;
-    background-color: white;
 }
 
 .choices{
     font-size: 18px;
-    background-color: white;
-
 }
 
 .continue{
-    display: grid;
-    grid-template-columns: 9fr 1fr;
-    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-
 
 .t_note{
     margin-left: 10%;
     margin-right: 10%;
 }
 
-.content{
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-}
+
 
 form {
     margin-left: 10%;   
@@ -70,12 +57,7 @@ form {
     width: 100px;
     padding: 10px;
     text-align: center;
-    display: inline-block;
-    text-decoration: none;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
-    margin-left: 95%;
+    float: right;
 }
-
-

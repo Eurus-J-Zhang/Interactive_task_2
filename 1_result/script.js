@@ -10,13 +10,6 @@ const t_times = localStorage.getItem('t_times');
 document.getElementById("true_times").innerHTML = t_times;
 
 function fn1(){
-    window.location="https://link.webropolsurveys.com/S/08093AFF94B018ED";
-    // const d = new Date();
-    // const start_time = d.getTime();
-    // localStorage.setItem('start_time',start_time);
+    window.open("https://link.webropolsurveys.com/S/08093AFF94B018ED");
 }
-
-// To reset the parameters
-// localStorage.setItem('t_times',0);
-// localStorage.setItem('task1_time',0);
 

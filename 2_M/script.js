@@ -2,10 +2,6 @@
 
 function fn1(){
 
-
-
-
-
     var rd1 = document.getElementById("A");
     var rd2 = document.getElementById("B");
     if (rd1.checked == true)

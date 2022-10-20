@@ -9,5 +9,6 @@ function preventBack() { window.history.forward(); }
 setTimeout("preventBack()", 0);  
 window.onunload = function () { null }; 
 
-let f_n = 1;
+let t_n = localStorage.getItem('t_times');
+t_n = Number(t_n) + 1;
 localStorage.setItem('t_times',f_n);
