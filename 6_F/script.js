@@ -2,9 +2,7 @@
 $("#A").prop("checked", true);
 
 function fn1(){
-
     window.location="../7_M/index.html";
-
 }
 
 function preventBack() { window.history.forward(); }  

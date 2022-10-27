@@ -1,6 +1,6 @@
 // Used to log all actions of the user
 // alert("Error!! There seems to be some problems with the system.");
-$("#B").prop("checked", true);
+$("#A").prop("checked", true);
 
 function fn1(){
 

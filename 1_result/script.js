@@ -10,6 +10,6 @@ const t_times = localStorage.getItem('t_times');
 document.getElementById("true_times").innerHTML = t_times;
 
 function fn1(){
-    window.open("https://link.webropolsurveys.com/S/08093AFF94B018ED");
+    window.open("https://link.webropolsurveys.com/S/5638324479B5DE6D");
 }
 

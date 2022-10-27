@@ -11,4 +11,4 @@ window.onunload = function () { null };
 
 let t_n = localStorage.getItem('t_times');
 t_n = Number(t_n) + 1;
-localStorage.setItem('t_times',f_n);
+localStorage.setItem('t_times',t_n);

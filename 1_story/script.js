@@ -5,8 +5,8 @@ function fn1(){
 }
 
 
-let f_n = 0;
-localStorage.setItem('t_times',f_n);
+// let f_n = 0;
+// localStorage.setItem('t_times',f_n);
 
 function preventBack() { window.history.forward(); }  
 setTimeout("preventBack()", 0);  
