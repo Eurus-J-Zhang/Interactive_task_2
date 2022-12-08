@@ -4,7 +4,7 @@
 function preventBack() { window.history.forward(); }  
 setTimeout("preventBack()", 0);  
 window.onunload = function () { null }; 
-$("#A").prop("checked", true);
+$("#B").prop("checked", true);
 
 function fn1(){
     window.location="../2_M/index.html";
